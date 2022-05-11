@@ -1,0 +1,28 @@
+
+
+1- Contenido de etiquetas:
+    a) Grupo de botones
+
+        estilos de botones de menu
+
+    b) Progress Bar
+
+        son barras de graficos
+
+    c) spinner (hilanderos)
+
+        son iconos de cargando (loading)
+
+
+    d) paginacion
+
+        <ul></ul>   listas no ordenadas
+
+        
+        <ol></ol>   esta serian listas ordenadas
+
+        <li></li>   aqui se enlistas cada uno de los elementos que deseamos
+
+        
+
+2- Subir pagina a servidor web

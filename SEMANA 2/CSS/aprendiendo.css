@@ -1,0 +1,65 @@
+body {
+
+    background-image: url(rayos.jpg);
+    background-size: auto;
+    color: #fff;
+}
+
+/**/
+/*asi se escriben los comentarios*/
+
+
+
+h1 {
+    color: chartreuse;
+    font-size: 50px;
+
+}
+
+/* para sacar corchetes presionar alt + 91
+para sacar llaves presiona alt + 123 */
+
+/* sirve para especificar un link en especial de como lo queremos dar formato */
+p a[href="https://www.google.com.mx/"] {
+
+    color: rgb(0, 119, 255);
+    font-size: 30px;
+}
+
+
+/* aqui primero le agrego una clase al elemento especifico que deseo cambiar y le doy un nombre x en html, para despues en css colocarle las caracteristicas poniendo primero un punto y despues el nombre x */
+.green {
+
+color: rgb(255, 10, 145);
+font-size: 30px;
+
+}
+
+
+/* igual que el anterior es un selector mas especifico solo que en este utilizamos el color rgba la a al final es la que nos ayudara a darle opacidad a nuestro color esta ira desde 0 has 1 */
+.opacidad {
+
+    color: rgba(251, 255, 30, 0.5);
+}
+
+
+/* width que al tener una caja podemos decirle que tamaño queremos que abarque dicha caja en nuestra pagina web */
+
+/* margin sirve para dar margenes externos ej donde dice 20 es arriba y abajo y donde dice 50 son los laterales */
+
+/* padding es para margenes internos y aplica el mismo metodo de margin */
+
+/* border crea bordes a nuestras cajas */
+
+/* display sirve para poner las cajas una al lado del otro si asi lo deseamos */
+
+div {
+
+    width: 30%;
+    background: rgb(19, 2, 119);
+    margin: 20px 50px;
+    padding: 5px 80px;
+    border: 2px solid #fff;
+    display: inline-block;
+
+}

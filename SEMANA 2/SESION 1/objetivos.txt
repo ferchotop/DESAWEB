@@ -1,0 +1,31 @@
+Bootstrap
+
+    1 Manejo de imagenes
+
+        clases de imagenes
+        -class="rounded"
+        -class="rounded-circle"
+        -class="img-thumbnail"
+        -class="float-start"
+        -class="float-end"
+        -class="mx-auto d-block"  imagen centrada
+        -class="img-fluid" la mas importante ya que esto se adapta a cualquier pantalla.
+
+        se pueden mezclar elementos de clases
+    
+    2 Jumbotrom
+
+    Es un div para encuadrar un texto
+    
+
+
+
+    3 Alertas
+
+    <div class="alert alert-success">
+    <strong>HALA MADRID</strong>
+    </div>
+    
+    4 Botones
+
+* Importante estudiar etiqueta de tablas

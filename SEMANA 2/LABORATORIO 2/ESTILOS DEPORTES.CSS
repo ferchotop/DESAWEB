@@ -1,0 +1,82 @@
+.fecha {
+
+    margin: 0;
+    background: rgb(148, 22, 0);
+    color: rgb(255, 255, 255);
+    height: 40px;
+    padding: 10px 10px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: small;
+
+}
+
+.recuadro {
+
+    margin: 3px 0px;
+    background: rgb(0, 0, 0);
+    height: 20px;
+}
+
+h1 {
+
+
+    color: rgb(0, 0, 0);
+    font-family: Cambria, Cochin, Georgia, Times, 'Cambria', serif;
+    font-size: 50px;
+    margin: 15px;
+
+}
+
+.linea {
+
+    margin: 0px 15px;
+    background: rgb(0, 0, 0);
+    height: 2px;
+
+}
+
+.submenu {
+
+    word-spacing: 8px;
+    background: rgb(148, 22, 0);
+    color: rgb(214, 16, 16);
+    font-size: 15px;
+
+}
+
+div a[href="#"] {
+
+
+    color: rgb(255, 255, 255);
+    font-size: small;
+
+}
+
+.columna {
+
+    display: inline-block;
+}
+
+.final {
+
+    margin: 0;
+    color: rgb(0, 0, 0);
+    font-size: 35px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Cambria', serif;
+}
+
+.lectura {
+
+    color: rgb(0, 0, 0);
+    background: rgb(255, 255, 255);
+    width: 520px;
+    text-align: justify;
+}
+
+
+.seccion{
+
+    display: inline-block;
+    margin: 5px 30px;
+}
+

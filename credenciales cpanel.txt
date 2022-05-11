@@ -1,0 +1,4 @@
+Credenciales Servidor WEB
+URL: https://webappshn.com:2083/
+user: webalrgg
+pass: UwYnZJCXeXFx
