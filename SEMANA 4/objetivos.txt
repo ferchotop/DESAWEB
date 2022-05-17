@@ -1,0 +1,2 @@
+1- Manejar formularios
+2- Modales (Ventana de Informacion)
