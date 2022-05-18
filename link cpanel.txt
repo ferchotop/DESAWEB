@@ -2,3 +2,5 @@ como crear un link desde el cpanel
     
     https://webappshn.com/grupo1/Semana3LabGrupo1/HOJA DE VIDA FERNANDO.HTML
 
+    para cambiar textos a la vez primero sellecciona el texto y luego control + d y escribimos
+
