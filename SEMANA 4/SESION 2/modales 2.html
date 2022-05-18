@@ -1,0 +1,126 @@
+<html>
+
+<head>
+
+    <!-- Bibliotecas de Bootstrap 5-->
+    <!-- Latest compiled and minified CSS  css sirve para estilos-->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Latest compiled JavaScript  Javascript le da dinamismo a la pagina -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js">
+    </script>
+
+    <!-- Etiqueta que configura la pagina que sea responsiva-->
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <title>Formulario y Modal</title>
+
+</head>
+
+
+<body>
+    <!-- recordar iniciar con una clase container siempre -->
+    <div class="container">
+
+        <h1>Sesion 2 </h1>
+        <br>
+
+        <h4>Objetivos</h4>
+        <br>
+
+        <!-- ul creamos listas ordenadas recordar -->
+        <ul>
+            <li>Creacion de Formularios</li>
+            <li>Modales</li>
+        </ul>
+
+        <br>
+
+        <h3>Formulario de Ingreso</h3>
+
+        <!-- con esta clase form creamos nuestro formulario -->
+        <form>
+
+
+            <!-- la clase form label es para poner el titulo
+           y el type es para poner el correo , un texto o una fecha dependiendo de lo que deseemos
+           el placeholder es como el texto fantasma que aparece al inicio -->
+            <div>
+                <label class="form-label">Correo Electronico: </label>
+                <input type="email" class="form-control" placeholder="Escriba su correo electronico"></input>
+                <br>
+            </div>
+
+            <div>
+                <label class="form-label">Nombre Completo: </label>
+                <input type="text" class="form-control"></input>
+                <br>
+            </div>
+
+            <div>
+                <label class="form-label">Fecha Nacimiento: </label>
+                <input type="date" class="form-control">
+                </input>
+                <br>
+            </div>
+
+            <div>
+                <label class="form-label">Contrasena: </label>
+                <input type="password" class="form-control" placeholder="Escriba una contrasena segura">
+                </input>
+                <br>
+            </div>
+
+
+            <!-- textarea es la que nos crea caja de comentarios y en row escribimos el numero de filas que deseamos -->
+            <div>
+                <label class="form-label">Comentario: </label>
+                <textarea class="form-control" rows="3"></textarea>
+                <br>
+            </div>
+
+
+            <!-- select es para tener las opciones de elegir ciudades ejemplo como este -->
+            <div>
+                <label class="form-label">Ciudad Natal:</label>
+                <select class="form-select">
+                    <option>Tegucigalpa</option>
+                    <option>San Pedro Sula</option>
+                </select>
+                <br>
+            </div>
+
+
+            <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#myModal">Enviar
+                Datos</button>
+
+            <!-- esta class modal es la que crea el mensaje flotante que nos aparece al final -->
+            <div class="modal" id="myModal">
+                <div class="modal-dialog">
+                    <div class="modal-content">
+
+                        <!-- Modal Header -->
+                        <div class="modal-header">
+                            <h4 class="modal-title">Mensaje</h4>
+                            <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
+                        </div>
+
+                        <!-- Modal body -->
+                        <div class="modal-body">
+                            Sus datos han sido enviados con exito!
+                        </div>
+
+                        <!-- Modal footer -->
+                        <div class="modal-footer">
+                            <button type="button" class="btn btn-danger" data-bs-dismiss="modal">Cerrar</button>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+        </form>
+
+    </div>
+
+
+</body>
