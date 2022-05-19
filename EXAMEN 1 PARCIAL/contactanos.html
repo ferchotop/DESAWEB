@@ -1,0 +1,162 @@
+<html>
+
+<head>
+
+    <!-- Bibliotecas de Bootstrap 5-->
+    <!-- Latest compiled and minified CSS  css sirve para estilos-->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Latest compiled JavaScript  Javascript le da dinamismo a la pagina -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js">
+    </script>
+
+    <!-- Etiqueta que configura la pagina que sea responsiva-->
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <title>FERCHOS LIQUORE STORE</title>
+
+</head>
+
+
+<body>
+
+    <!-- aqui se cumple inciso 1 y 2 -->
+    <nav class="navbar navbar-expand-sm bg-secondary navbar-dark">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="index.html">Inicio</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#collapsibleNavbar">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="collapsibleNavbar">
+                <ul class="navbar-nav">
+                    <li class="nav-item">
+                        <a class="nav-link" href="CERVEZAS.html">CERVEZAS</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="VINOS.html">VINOS</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="RON.html">RON</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="contactanos.html">contactenos</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <div class="container-fluid">
+
+        <br>
+        <br>
+
+        <!-- aqui cumplo el inciso 1 -->
+
+        <form>
+
+
+            <!-- la clase form label es para poner el titulo
+                   y el type es para poner el correo , un texto o una fecha dependiendo de lo que deseemos
+                   el placeholder es como el texto fantasma que aparece al inicio -->
+            <div>
+                <label class="form-label text-primary">Correo Electronico: </label>
+                <input type="email" class="form-control" placeholder="Escriba su correo electronico"></input>
+                <br>
+            </div>
+
+            <div>
+                <label class="form-label text-primary">Nombre Completo: </label>
+                <input type="text" class="form-control" placeholder="Escriba su nombre completo"></input>
+                <br>
+            </div>
+
+            <div>
+                <label class="form-label text-primary">Fecha Nacimiento: </label>
+                <input type="date" class="form-control">
+                </input>
+                <br>
+            </div>
+
+
+            <!-- select es para tener las opciones de elegir ciudades ejemplo como este -->
+            <div>
+                <label class="form-label text-primary">Lugar de Entrega:</label>
+                <select class="form-select">
+
+                
+                    <option>Tegucigalpa</option>
+                    <option>San Pedro Sula</option>
+                    <option>Comayagua</option>
+                    <option>Valle de Angeles</option>
+                    <option>Tatumbla</option>
+                </select>
+                <br>
+            </div>
+
+
+            <!-- textarea es la que nos crea caja de comentarios y en row escribimos el numero de filas que deseamos -->
+            <div>
+                <label class="form-label text-primary">Direccion especifica de entrega: </label>
+                <textarea class="form-control" rows="4"></textarea>
+                <br>
+            </div>
+
+            <br>
+            <br>
+
+            <button type="button" class="btn btn-outline-secondary" data-bs-toggle="modal"
+                data-bs-target="#myModal">Enviar</button>
+
+            <br>
+            <br>
+
+            <!-- esta class modal es la que crea el mensaje flotante que nos aparece al final -->
+            <div class="modal" id="myModal">
+                <div class="modal-dialog">
+                    <div class="modal-content">
+
+                        <!-- Modal Header -->
+                        <div class="modal-header">
+                            <h4 class="modal-title">EXITO</h4>
+                            <button type="button" class="btn-close small" data-bs-dismiss="modal"></button>
+                        </div>
+
+                        <!-- Modal body -->
+                        <div class="modal-body">
+                            Datos enviados correctamente
+                        </div>
+
+                        <!-- Modal footer -->
+                        <div class="modal-footer">
+                            <button type="button" class="btn btn-success" data-bs-dismiss="modal">Cerrar</button>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+        </form>
+
+    </div>
+
+
+
+    <div class="container mt-3">
+
+        <p>Siguenos
+
+            <a target="blank" href="https://www.behance.net/ferchotop_59cf"><img src="LOGO INSTAGRAM-02.png" alt=""></a>
+        </p>
+
+    </div>
+
+
+
+    <div>
+
+        <h6 class="bg-secondary text-white small text-center">Tienes sed? Nadie mejor que nosotros para saciar tu sed!
+        </h6>
+
+    </div>
+
+</body>
